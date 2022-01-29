@@ -1,0 +1,26 @@
+{
+  "name": "please-use-yarn",
+  "version": "1.0.0",
+  "description": "强制在项目中使用 yarn 作为包管理器",
+  "main": "bin.js",
+  "bin": "bin.js",
+  "files": [
+    "bin.js"
+  ],
+  "keywords": [
+    "npm",
+    "yarn"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "preinstall": "npx please-use-yarn"
+  },
+  "license": "MIT",
+  "repository": "justjavac/please-use-yarn",
+  "author": "justjavac",
+  "homepage": "https://github.com/justjavac/please-use-yarn",
+  "bugs": "https://github.com/justjavac/please-use-yarn/issues"
+}
