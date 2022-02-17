@@ -1,6 +1,6 @@
 {
   "name": "please-use-yarn",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "强制在项目中使用 yarn 作为包管理器",
   "main": "bin.js",
   "bin": "bin.js",
